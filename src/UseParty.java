@@ -14,10 +14,16 @@ public class UseParty {
         a.setGuests(guests);
         a.displayInvitation();
         DinnerParty dinner = new DinnerParty();
+        dinner.setGuests(guests);
 
         for (Map.Entry<Integer, String> i : menuItems.entrySet()) {
             System.out.println(i.getKey() + " " + i.getValue());
         }
+        System.out.println("Please enter your dinner choice");
+        Scanner num = new Scanner(System.in);
+        int choice = num.nextInt();
+        dinner.setDinnerChoice(choice); 
+        dinner.displayInvitation();
     }
 
     public static HashMap<Integer, String> generate_menu() {
