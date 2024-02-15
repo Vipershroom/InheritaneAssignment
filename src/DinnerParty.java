@@ -6,7 +6,4 @@ public class DinnerParty {
     public void setGuests(int a){
         dinnerMenu = a;
     }
-    public static void main(String[] args) {
-
-    }
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236e20a2-ce5b-4a95-9030-9ec3d8c72378" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/DinnerParty.java" afterDir="false" />
+    <list default="true" id="236e20a2-ce5b-4a95-9030-9ec3d8c72378" name="Changes" comment="Add dinner party class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DinnerParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DinnerParty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DinnerParty.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.UseParty.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -41,6 +44,20 @@
     "onboarding.tips.debug.path": "/home/sasaki/Desktop/School/CS121/Party/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="UseParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseParty" />
+      <module name="Party" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UseParty" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,12 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708022514657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add dinner party class">
+      <option name="closed" value="true" />
+      <created>1708023526862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708023526862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add dinner party class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dinner party class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
