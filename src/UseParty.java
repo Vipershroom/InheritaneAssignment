@@ -14,8 +14,11 @@ public class UseParty {
         a.setGuests(guests);
         a.displayInvitation();
         DinnerParty dinner = new DinnerParty();
+        System.out.println("How many guests are coming?");
+        guests = s.nextInt();
         dinner.setGuests(guests);
-
+        System.out.println("the party has "+guests+" guests");
+        
         for (Map.Entry<Integer, String> i : menuItems.entrySet()) {
             System.out.println(i.getKey() + " " + i.getValue());
         }
@@ -23,6 +26,7 @@ public class UseParty {
         Scanner num = new Scanner(System.in);
         int choice = num.nextInt();
         dinner.setDinnerChoice(choice); 
+        
         dinner.displayInvitation();
     }
 
