@@ -1,4 +1,4 @@
-public class DinnerParty {
+public class DinnerParty extends Party {
     private int dinnerMenu;
     private int dinnnerChoice;
     public int getDinnerMenu(){
