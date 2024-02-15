@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="236e20a2-ce5b-4a95-9030-9ec3d8c72378" name="Changes" comment="Add dinner party class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DinnerParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DinnerParty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UseParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseParty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cPoEFDOt1BM7lqsBRGu9AyndiI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,13 +41,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/sasaki/Desktop/School/inheritance/InheritaneAssignment",
     "onboarding.tips.debug.path": "/home/sasaki/Desktop/School/CS121/Party/src/Main.java"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="UseParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-17-openjdk" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="UseParty" />
-      <module name="Party" />
+      <module name="InheritaneAssignment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,20 +89,20 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add dinner party class" />
     <option name="LAST_COMMIT_MESSAGE" value="Add dinner party class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
