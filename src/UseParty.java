@@ -29,6 +29,16 @@ public class UseParty {
         }
 
         int choice = inputNumber();
+        while (true) {
+            if (choice > 0 & choice <= menuItems.size()) {
+                break;
+            }
+            System.out.println("Enter the Menu Option");
+            for (Map.Entry<Integer, String> i : menuItems.entrySet()) {
+                System.out.println(i.getKey() + " " + i.getValue());
+            }
+            choice = inputNumber();
+        }
         dinner.setDinnerChoice(choice); 
         System.out.println("the dinner party has "+guests+" guests");
         System.out.println("Menu option " + choice + " will be served");
